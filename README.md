@@ -1,4 +1,4 @@
-# vanilla JS todo
+# Vanilla JS Todo App
 
 A simple todo app made with only JavaScript HTML and CSS. 
 
