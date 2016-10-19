@@ -4,7 +4,7 @@ var ul = document.getElementById('list'),
 
 add.onclick = () => {
   addLi(ul);
-}
+};
 
 function addLi(targetUl) {
   var inputText = document.getElementById('text').value,
@@ -27,13 +27,13 @@ function addLi(targetUl) {
 
   targetUl.appendChild(li);
 }
-;
+
 
 function removeMe(item) {
   var parent = item.parentElement;
   parent.parentElement.removeChild(parent);
 }
-;
+
 
 removeAll.onclick = function() {
   ul.innerHTML = '';
